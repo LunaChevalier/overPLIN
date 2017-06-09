@@ -2,7 +2,7 @@ require 'sinatra'
 require 'line/bot'
 
 get '/' do
-  "Hello world"
+  p "Hello world"
 end
 
 def client
